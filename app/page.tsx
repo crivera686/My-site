@@ -199,7 +199,6 @@
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {PRODUCTS.map(p => (
                 <Card key={p.id} className="group bg-zinc-900/60 border-zinc-800 overflow-hidden">
-                  <img src="Training%20range%20class.PNG" alt="Training Range Class">
                   <CardHeader className="pb-2">
                     <div className="flex items-center justify-between">
                       <CardTitle className="text-lg">{p.name}</CardTitle>
