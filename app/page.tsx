@@ -119,8 +119,8 @@
                   <span className="inline-flex items-center gap-2"><Truck className="h-4 w-4"/> Fast Shipping</span>
                 </div>
               </div>
-              <div className="relative">
-                {/Training20%range20%2.png/}
+              <div className="relative">    
+                {/public/Training20%range20%2.png/}
                 <div className="aspect-[4/3] rounded-2xl bg-[url('https://images.unsplash.com/photo-1613743989681-77c3979c981d?q=80&w=1600&auto=format&fit=crop')] bg-cover bg-center shadow-2xl ring-1 ring-white/10" />
                 <div className="absolute -bottom-4 -right-4 bg-zinc-900/70 backdrop-blur rounded-xl p-4 ring-1 ring-white/10">
                   <div className="text-xs uppercase tracking-wider text-zinc-400">Next Course</div>
