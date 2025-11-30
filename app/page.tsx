@@ -105,29 +105,78 @@
           )}
 
           <Section id="home" className="pt-10">
-            <div className="grid md:grid-cols-2 gap-10 items-center">
-              <div>
-                <motion.h1 initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:0.6}} className="text-4xl md:text-6xl font-black leading-tight tracking-tight">Train Hard. Stay Sharp.</motion.h1>
-                <p className="mt-4 text-zinc-300 max-w-prose">Steel & Talon brings professional firearms instruction together with gritty, automotive‑inspired apparel. From CCW to carbine, from hats to hoodies — built for the range and the street.</p>
-                <div className="mt-6 flex flex-wrap gap-3">
-                  <Button asChild size="lg"><a href="#training"><ShieldCheck className="h-4 w-4 mr-2"/> Browse Courses</a></Button>
-                  <Button asChild variant="secondary" size="lg"><a href="#apparel"><Shirt className="h-4 w-4 mr-2"/> Shop Apparel</a></Button>
-                </div>
-                <div className="mt-6 flex items-center gap-6 text-sm text-zinc-400">
-                  <span className="inline-flex items-center gap-2"><BadgeCheck className="h-4 w-4"/> Insured & Certified</span>
-                  <span className="inline-flex items-center gap-2"><Clock className="h-4 w-4"/> Weeknight & Weekend Classes</span>
-                  <span className="inline-flex items-center gap-2"><Truck className="h-4 w-4"/> Fast Shipping</span>
-                </div>
-              </div>
-              <div className="relative">
-                <div className="aspect-[4/3] rounded-2xl bg-[url('https://images.unsplash.com/photo-1613743989681-77c3979c981d?q=80&w=1600&auto=format&fit=crop')] bg-cover bg-center shadow-2xl ring-1 ring-white/10" />
-                <div className="absolute -bottom-4 -right-4 bg-zinc-900/70 backdrop-blur rounded-xl p-4 ring-1 ring-white/10">
-                  <div className="text-xs uppercase tracking-wider text-zinc-400">Next Course</div>
-                  <div className="font-semibold">Defensive Pistol — Sat 9:00 AM</div>
-                </div>
-              </div>
-            </div>
-          </Section>
+  <div className="grid md:grid-cols-2 gap-10 items-center">
+    {/* LEFT SIDE – TEXT */}
+    <div>
+      <motion.h1
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="text-4xl md:text-6xl font-black leading-tight tracking-tight"
+      >
+        Train Hard. Stay Sharp.
+      </motion.h1>
+      <p className="mt-4 text-zinc-300 max-w-prose">
+        Steel & Talon brings professional firearms instruction together with gritty,
+        automotive-inspired apparel. From CCW to carbine, from hats to hoodies — built
+        for the range and the street.
+      </p>
+      <div className="mt-6 flex flex-wrap gap-3">
+        <Button asChild size="lg">
+          <a href="#training">
+            <ShieldCheck className="h-4 w-4 mr-2" />
+            Browse Courses
+          </a>
+        </Button>
+        <Button asChild variant="secondary" size="lg">
+          <a href="#apparel">
+            <Shirt className="h-4 w-4 mr-2" />
+            Shop Apparel
+          </a>
+        </Button>
+      </div>
+      <div className="mt-6 flex items-center gap-6 text-sm text-zinc-400">
+        <span className="inline-flex items-center gap-2">
+          <BadgeCheck className="h-4 w-4" /> Insured & Certified
+        </span>
+        <span className="inline-flex items-center gap-2">
+          <Clock className="h-4 w-4" /> Weeknight & Weekend Classes
+        </span>
+        <span className="inline-flex items-center gap-2">
+          <Truck className="h-4 w-4" /> Fast Shipping
+        </span>
+      </div>
+    </div>
+
+    {/* RIGHT SIDE – HERO IMAGE + NEXT COURSE CARD */}
+    <div className="relative">
+      {/* main hero background image */}
+      <div className="aspect-[4/3] rounded-2xl bg-[url('https://images.unsplash.com/photo-1613743989681-77c3979c981d?q=80&w=1600&auto=format&fit=crop')] bg-cover bg-center shadow-2xl ring-1 ring-white/10" />
+
+      {/* next course box with your instructor photo */}
+      <div className="absolute bottom-4 right-4 bg-zinc-900/80 backdrop-blur rounded-xl p-3 pr-4 ring-1 ring-white/10 flex items-center gap-3">
+        <img
+          src="/next-course-instructor.jpg"
+          alt="Steel & Talon firearms training instructor teaching a class"
+          className="h-16 w-16 rounded-lg object-cover"
+        />
+        <div className="space-y-1">
+          <div className="text-xs uppercase tracking-wider text-zinc-400">
+            Next Course
+          </div>
+          <div className="text-sm font-semibold">
+            Defensive Pistol — Sat 9:00 AM
+          </div>
+          <div className="text-xs text-zinc-400">
+            Limited seats • Book now
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Section>
+
+
 
           <Section id="training" className="bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-zinc-900/60 via-zinc-950 to-black">
             <div className="flex items-center justify-between mb-8">
