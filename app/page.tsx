@@ -17,7 +17,7 @@
   const COURSES = [
     { id: "pistol-1", level: "Beginner", title: "Handgun Essentials", badge: "Popular", duration: "4 hrs", price: 150, outline: ["Safety rules & range etiquette","Grip, stance, sight picture","Trigger control & follow‑through","Live‑fire fundamentals"]},
     { id: "pistol-2", level: "Intermediate", title: "Defensive Pistol", badge: "New", duration: "6 hrs", price: 200, outline: ["Drawstroke & presentation","Reloads & malfunction clears","Movement & use of cover","Timed drills & standards"]},
-    { id: "home defense", level: "Intermediate", title: "In Home Defense Training", badge: "Essential", duration: "4 hrs", price: 300, outline: ["Safety rules & home planning","in homedefense training","Gun storage & accesability","Time drills with inteuders"]},
+    { id: "home defense", level: "Intermediate", title: "In Home Defense Training", badge: "Essential", duration: "4 hrs", price: 300, outline: ["Safety rules & home planning","in homedefense training","Gun storage & accesability","Time drills with intruders"]},
     { id: "carbine-1", level: "Intermediate", title: "Carbine Fundamentals", badge: "Crew Favorite", duration: "1 day", price: 325, outline: ["Zeroing & holds","Recoil management","Positional shooting","Partner drills"]},
     { id: "ccw", level: "All levels", title: "CCW Certification (CA)", badge: "Limited Seats", duration:"8–16 hrs", price: 199, outline:["State requirements","Legal use of force","Live‑fire qual","Scenario discussion"]},
   ];
