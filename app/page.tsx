@@ -151,7 +151,7 @@
                   <CardContent className="space-y-4">
                     <ul className="text-sm text-zinc-300 list-disc pl-5 space-y-1">{c.outline.map((o,i)=><li key={i}>{o}</li>)}</ul>
                     <div className="flex items-center justify-between">
-                      <div className="text-2xl font-bold">${"{"+""+"}"}{c.price}</div>
+                      <div className="text-2xl font-bold">${c.price}</div>
                       <div className="flex gap-2">
                         <Button variant="secondary" onClick={()=>setSelectedCourse(c)}><CalendarDays className="h-4 w-4 mr-2"/> View Dates</Button>
                         <Button onClick={()=>alert('Lead form placeholder — connect to your booking/checkout')}>Enroll <ChevronRight className="h-4 w-4 ml-1"/></Button>
