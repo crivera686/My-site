@@ -93,6 +93,7 @@
             <div className="fixed inset-0 z-50 bg-black/60" onClick={()=>setMobileOpen(false)}>
               <div className="absolute left-0 top-0 h-full w-80 bg-zinc-950 border-r border-zinc-800 p-4" onClick={e=>e.stopPropagation()}>
                 <div className="flex items-center justify-between mb-4">
+                  <img src="/logo.jpg" alt="Steel & Talon logo" className="h-8 w-auto object-contain" />
                   <div className="text-lg font-semibold flex items-center gap-2"><Target className="h-5 w-5"/> Steel & Talon</div>
                   <button onClick={()=>setMobileOpen(false)}><X className="h-5 w-5"/></button>
                 </div>
