@@ -106,7 +106,7 @@
           <Section id="home" className="pt-10">
             <div className="grid md:grid-cols-2 gap-10 items-center">
               <div>
-                <motion.h1 initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:0.6}} className="text-4xl md:text-6xl font-black leading-tight tracking-tight">Train Hard. Look Sharp.</motion.h1>
+                <motion.h1 initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:0.6}} className="text-4xl md:text-6xl font-black leading-tight tracking-tight">Train Hard. Stay Sharp.</motion.h1>
                 <p className="mt-4 text-zinc-300 max-w-prose">Steel & Talon brings professional firearms instruction together with gritty, automotive‑inspired apparel. From CCW to carbine, from hats to hoodies — built for the range and the street.</p>
                 <div className="mt-6 flex flex-wrap gap-3">
                   <Button asChild size="lg"><a href="#training"><ShieldCheck className="h-4 w-4 mr-2"/> Browse Courses</a></Button>
