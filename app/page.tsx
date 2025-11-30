@@ -258,7 +258,7 @@
                   <CardDescription>Built by instructors. Forged in the Inland Empire.</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-3 text-zinc-300">
-                  <p>We’re a veteran‑led training group focused on turning fundamentals into performance. Our curriculum scales from first shots to defensive standards and patrol quals. No shortcuts, no chest‑beating — just safe, efficient reps with measurable progress.</p>
+                  <p>We’re a professional NRA certified training group focused on turning fundamentals into performance. Our curriculum scales from first shots to defensive standards and patrol quals. No shortcuts, no chest‑beating — just safe, efficient reps with measurable progress.</p>
                   <p>Our apparel line reflects the same mindset: durable, honest gear you’ll actually wear. Inspired by motorsport, fabrication, and the tools that build real life.</p>
                   <ul className="grid sm:grid-cols-2 gap-2 text-sm">
                     <li className="inline-flex items-center gap-2"><CheckCircle2 className="h-4 w-4"/> Insured & permitted</li>
@@ -288,9 +288,9 @@
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-8">What Students Say</h2>
             <div className="grid md:grid-cols-3 gap-6">
               {[
-                {name: "A. Gomez", role: "LEO", quote: "The fundamentals block alone shaved seconds off my runs. Professional staff and a safe, dialed range experience."},
-                {name: "K. Nguyen", role: "CCW Holder", quote: "Clear, confident instruction without the ego. Left with a plan and standards to train on my own."},
-                {name: "J. Rivera", role: "USMC Vet", quote: "Solid curriculum. Movement and use‑of‑cover module is worth the ticket by itself."}
+                {name: "A. Arellano", role: "Contractor", quote: "The fundamentals block alone shaved seconds off my runs. Professional staff and a safe, dialed range experience."},
+                {name: "C. Arellano", role: "Teacher", quote: "Clear, confident instruction without the ego. Left with a plan and standards to train on my own."},
+                {name: "K. Goldstein", role: "Groomer", quote: "Solid curriculum. Movement and use‑of‑cover module is worth the ticket by itself."}
               ].map((t,i)=>(
                 <Card key={i} className="bg-zinc-900/60 border-zinc-800">
                   <CardContent className="p-6">
