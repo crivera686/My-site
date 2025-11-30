@@ -73,7 +73,7 @@
             <div className="container mx-auto px-4 max-w-7xl h-16 flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <img src="/logo.jpg" alt="Steel & Talon logo" className="h-8 w-auto object-contain" />
-                <a href="#home" className="font-black tracking-tight text-lg md:text-xl">Steel & Talon</a>
+                <a href="#home" className="font-black tracking-tight text-lg md:text-xl"> </a>
                 <span className="hidden md:inline-flex rounded-full bg-zinc-800 text-zinc-200 px-2 py-1 text-xs">Firearms Training • Apparel</span>
               </div>
               <nav className="hidden md:flex items-center gap-6">
